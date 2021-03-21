@@ -1,0 +1,10 @@
+.completeCheckDiv{
+    display: flex;
+}
+.undoIcon{
+    margin-left: 10px;
+    visibility: hidden;
+}
+.completeCheckDiv:hover > .undoIcon{
+    visibility: visible !important;
+}

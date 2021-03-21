@@ -1,0 +1,107 @@
+.outerNavbar {
+  display: flex;
+  width: 90%;
+  height: 100%;
+  margin: 0 auto;
+}
+.leftSideDiv {
+  width: 60%;
+  display: flex;
+  align-items: center;
+}
+.navbar {
+  display: flex;
+  margin-bottom: 15px;
+}
+a {
+  text-decoration: none !important;
+}
+.navItem {
+  width: 175px;
+  height: 134px;
+  border: 1px solid #dfdede;
+  border-radius: 4px;
+  text-align: center;
+  text-decoration: none !important;
+  margin: 10px;
+  padding: 10px;
+}
+.navItem:first-child{
+  padding-left: 0px !important;
+}
+
+.selectedBlock {
+  background: #ebebeb;
+}
+.navLabel {
+  font-size: 18px;
+  font-weight: bold;
+  color: #263238;
+  display: block;
+}
+.navCount {
+  font-size: 56px;
+  font-weight: 300;
+  color: #263238;
+  display: block;
+}
+
+.rightSideDiv {
+  width: 40%;
+  display: flex;
+  align-items: center;
+}
+.taskAddBox {
+  width: 300px;
+  height: 332px;
+  border: 1px solid #dfdede;
+  border-radius: 4px;
+  padding: 10px 20px;
+  margin: 0 auto;
+}
+.boxTitle {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 21px;
+  color: #444444;
+  margin-bottom: 18px;
+}
+.boxLabel {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  color: #444444;
+  margin-bottom: 5px;
+}
+.boxTextarea {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 16px;
+  color: #aaaaaa;
+  width: 260px;
+  height: 96px;
+  background: #ffffff;
+  border: 1px solid #dfdede;
+  box-sizing: border-box;
+  border-radius: 3px;
+  margin-bottom: 15px;
+}
+.boxBottomText {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  color: #444444;
+}
+.boxSignOutTxt {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  text-decoration-line: underline;
+  color: #3592ff;
+  cursor: pointer;
+}

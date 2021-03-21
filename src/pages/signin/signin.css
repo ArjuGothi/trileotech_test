@@ -1,0 +1,89 @@
+.signinWrapper{
+    display: flex;
+    height: 100%;
+}
+.signInImgDiv{
+    width: 50%;
+    display: flex;
+}
+.mainDiv{
+    display: flex;
+    width: 50%;
+}
+
+.loginPage{
+    background-color:#ffffff;
+    width:300px;
+    height:383px;
+    /* min-width:300px;
+    max-width:383px; */
+    padding:18px;
+    border: 1px solid #DFDEDE;
+    margin:auto;
+}
+.loginLbl{
+    color:#444444;
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+.spacing{
+    margin:15px 0px;
+    /* display: table-column; */
+}
+.errorMsg{
+    text-align: left;
+    color: red;
+    font-size: 10px;
+}
+.input{
+    height:48px;
+    width:260px;
+    background-color:#fff;
+    font-size:16px;
+    border:none;
+    font-weight: normal;
+    border: 1px solid #DFDEDE;
+    color:#AAAAAA;
+    outline:none !important;
+    /* &:hover{
+        outline:none !important;
+    } */
+}
+.inputLable{
+    font-size: 14px;
+    width:260px;
+    color: #444444;
+    font-weight: bold;
+    text-align: left;
+}
+.button{
+    height:48px;
+    width:260px;
+    border:1px solid #3592FF;
+    color:#fff;
+    font-size:16px;
+    font-weight: bold;
+    /* font-family: Roboto; */
+    background-color:#3592FF;
+}
+.loginBlwTxt{
+    font-size: 14px;
+    font-weight: normal;
+    color: #444444;
+}
+.signUpBlwTxt{
+    color: #3592FF;
+    font-size: 14px;
+    font-weight: normal;
+    text-decoration: underline;
+    cursor: pointer;
+}
+.checkbxDiv{
+    display: flex;
+    justify-content: flex-start;
+    font-weight: bold;
+    color: #444444;
+    font-size: 14px;
+    width: 100%;
+}

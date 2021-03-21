@@ -1,0 +1,14 @@
+.chechDiv{
+    display: flex;
+    cursor: pointer;
+}
+.iconDiv{
+    visibility: hidden;
+    margin-left: 5px;
+}
+.chechDiv:hover > .iconDiv{
+    visibility: visible !important;
+}
+.iconStyle{
+    padding: 0 4px;
+}
